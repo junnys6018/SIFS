@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+#include "sifs.h"
+
+// Invalid argument
+void test_error_SIFS_EINVAL(void)
+{
+
+}
+
+// Cannot create volume
+void test_error_SIFS_ECREATE(void)
+{
+
+}
+
+// No such volume
+void test_error_SIFS_ENOVOL(void)
+{
+
+}
+
+// No such file or directory entry
+void test_error_SIFS_ENOENT(void)
+{
+
+}
+
+// Volume, file or directory already exists
+void test_error_SIFS_EEXIST(void)
+{
+
+}
+
+// Not a volume
+void test_error_SIFS_ENOTVOL(void)
+{
+
+}
+
+// Not a directory
+void test_error_SIFS_ENOTDIR(void)
+{
+
+}
+
+// Not a file
+void test_error_SIFS_ENOTFILE(void)
+{
+
+}
+
+// Too many directory or file entries
+void test_error_SIFS_EMAXENTRY(void)
+{
+
+}
+
+// No space left on volume
+void test_error_SIFS_ENOSPC(void)
+{
+
+}
+
+// Memory allocation failed
+void test_error_SIFS_ENOMEM(void)
+{
+
+}
+
+// Not yet implemented
+void test_error_SIFS_ENOTYET(void)
+{
+
+}
+
+int main(int argcount, char* argvalue[])
+{
+
+	return 0;
+}
